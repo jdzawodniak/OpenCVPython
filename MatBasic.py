@@ -7,6 +7,6 @@ plt.plot(y,x,'b*',markersize=10) #color options are vast. check of options onlin
 plt.grid(True)
 plt.xlabel('x values')
 plt.ylabel('y values')
-plt.title('my graph')
+plt.title('my graph') # puts title on the graph
 plt.axis([0,5,0,10]) #maps the axis with custom range
 plt.show()
