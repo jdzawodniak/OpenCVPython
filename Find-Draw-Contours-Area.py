@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 while True:
     _, frame = cap.read()
@@ -26,5 +26,5 @@ while True:
     if key == 27:
         break
 
-cap.release()
+cap.release() 
 cv2.destroyAllWindows()
